@@ -1,0 +1,15 @@
+package Exam1;
+import java.util.Arrays;
+public class test2 {
+	public static void main(String[] args) {
+		String[][] a = new String[][] {
+			{"a", "b"}, {"c", "d"}
+		};
+		
+		String[] b = new String[] {"1", "2"};
+		
+		System.out.println(Arrays.deepToString(a));
+	}
+	
+	
+}

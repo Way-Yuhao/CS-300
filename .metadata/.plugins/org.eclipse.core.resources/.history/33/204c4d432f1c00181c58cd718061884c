@@ -1,0 +1,18 @@
+package Exam1;
+import java.util.Arrays;
+public class test1 {
+	public static void main(String[] args) {
+		String [] str = {"1", "2", "3"};
+
+		String[][] str1 = new String [][] {str};
+		String[][] str2 = str1;
+		str2[0][0] = "X";
+		
+		System.out.println(Arrays.deepToString(str1)); //"X"
+		
+	}
+	
+	private static void methodA() {
+		System.out.println("FUck");
+	}
+}

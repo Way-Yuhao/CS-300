@@ -1,0 +1,12 @@
+package Exam1;
+
+public class test1 {
+	public static void main(String[] args) {
+		String a = "a";
+		String[] str = new String [] {a, "1", a};
+		a = "b";
+		System.out.println(str[0]);
+		System.out.println(a);
+		
+	}
+}

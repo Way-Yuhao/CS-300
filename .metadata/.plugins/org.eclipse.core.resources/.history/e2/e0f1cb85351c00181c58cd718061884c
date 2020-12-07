@@ -1,0 +1,15 @@
+package Exam1;
+
+public class Playground {
+	
+}
+
+interface Person {
+	public void shoot();
+	public void defend();
+}
+
+class Bitch {
+	public Bitch() {};
+	public void shoot() {System.out.println("bang!");}
+}

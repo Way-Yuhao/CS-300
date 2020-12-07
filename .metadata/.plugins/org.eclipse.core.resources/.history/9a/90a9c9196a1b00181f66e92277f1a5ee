@@ -1,0 +1,48 @@
+package Exam1;
+
+public class LEC2 {
+	public static void main(String[] args) {
+		// Initialize array to look like the diagram from last class:
+				// (note that we can explicitly make these E's reference the same or different objects)
+				String e1 = new String("E");
+				String e2 = new String(e1); // or to reuse same object: String e2 = e1;
+				String[][] original = new String[][] {
+					{"A", "B", "C"},
+					{null, null, "D"},
+					{null, e1, e2}
+				};
+		 
+				// one way to implement copies at different depths:
+				String[][] copy1 = original; 
+				// .clone() may behave differently when called on different types of objects
+				String[][] copy2 = original.clone();
+				String[][] copy4 = new String[original.length][];
+				for(int i=0; i<copy4.length; i++) {
+					copy4[i] = new String[original[i].length];
+					for(int j=0; j<copy4[i].length; j++)
+						if(original[i][j] != null)
+							copy4[i][j] = new String(original[i][j]);
+						// for copy3, just remove "new String" from the previous line
+						else copy4[i][j] = null; // not necessary, but makes code more explicit/clear
+				}
+		 
+				// try comparing copies using different definitions for equals:
+				System.out.print( original == copy1 );
+				System.out.print( original == copy2 );
+				System.out.print( original == copy4 );
+				System.out.println();
+				System.out.print( Arrays.equals( original, copy1 ) );
+				System.out.print( Arrays.equals( original, copy2 ) );
+				System.out.print( Arrays.equals( original, copy4 ) );      
+				System.out.println();
+				System.out.print( Arrays.deepEquals( original, copy1 ) );
+				System.out.print( Arrays.deepEquals( original, copy2 ) );
+				System.out.print( Arrays.deepEquals( original, copy4 ) );
+				System.out.println();
+				// .equals() may behave differently when called on different types of objects
+				System.out.println(e1 == e2);
+				System.out.println(e1.equals(e2));
+				// but for arrays, .equals() produces the same result as ==
+				System.out.println( original.equals(copy2) );
+	}
+}

@@ -1,0 +1,24 @@
+package Gene;
+
+public class Gene {
+	public static void main(String[] fuck) {
+		ECar tesla = new ECar();
+	}
+}
+
+
+interface Car<T> {
+	public void getType(T[] list);
+}
+
+class ECar implements Car<ECar> {
+	public void getType(ECar[] list) {}
+}
+
+class RCar implements Comparable<RCar>  {
+	public int compareTo(RCar) {
+		return -1;
+	}
+		
+	}
+}

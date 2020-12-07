@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;SaveBedButton.java&apos; to &apos;SaveButton.java&apos;&#x0A;- Original project: &apos;P04 DORM DESIGNER 4000&apos;&#x0A;- Original element: &apos;SaveBedButton.java&apos;&#x0A;- Renamed element: &apos;SaveButton.java&apos;" description="Rename compilation unit &apos;SaveBedButton.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{SaveBedButton.java" name="SaveButton.java" references="false" stamp="1518805283380" version="1.0"/>
+</session>

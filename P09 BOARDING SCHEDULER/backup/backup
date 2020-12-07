@@ -1,0 +1,51 @@
+   
+//   private void enqueueAt(Passenger newPass, int index) {
+//   	if (index >= size) { //if reached the end of the array
+//   		//expand the array to doubled its previous size
+//   		return;
+//   	}
+//   	Passenger curPass = heap[index]; //Retrieve the already stored at index
+//   	//Base case 1: found the end of the list
+//   	if (curPass == null) {
+//   		heap[index] = newPass;
+//   		size++;
+//   		return;
+//   	}else if (newPass.compareTo(curPass) == -1) { 
+//   		//Base case 2: insert the new passenger in front of those with lower priority
+//   		heap[index] = newPass;
+//   		//TODO shift the rest of the array
+//   		size++;
+//   		return;
+//   	} else {
+//   		//Case 3: need to insert at a later index
+//   		//recursive call
+//   		enqueueAt(newPass, index + 1);
+//   		return;
+//   	}
+//   }
+//   private void shiftArrBackwardsAfter(int index, Passenger misplacedPass) {
+//	   //check for the need to expand the array
+//	   if (index >= size - 1) { //if there is no room for an extra passenger
+//		   expandArr();
+//	   }
+//	   //shift all passengers to the right starting from the end
+//	   for (int i = size + 1; i > index; i-- ) {
+//		   heap[i + 1] = heap[i];
+//	   }
+//	   //insert the misplaced passenger at index + 1
+//	   heap[index + 1] = misplacedPass;
+//   }
+//   /**
+//    * Shift all elements forward with the first element to be shifted at 
+//    * index 
+//    * @param index
+//    */
+//   public void shiftArrForwardAt(int index) {
+//	   for (int i = index; i <= size; i++) {
+//		   heap[i - 1] = heap[i];
+//	   }
+//	   return;
+//   }
+//
+//    
+//  

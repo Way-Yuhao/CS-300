@@ -1,0 +1,8 @@
+package Exam1;
+import java.util.ArrayList;
+public class Test3 {
+	public static void main(String[] args) throws Exception{
+		String[] s;
+		s[1] = "a";
+	}
+}

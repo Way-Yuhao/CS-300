@@ -1,0 +1,25 @@
+package Exam1;
+
+public class Playground {
+	public static void main(String[] args) {
+		Bitch bitch = new Bitch();
+		bitch.shoot();
+		
+	}
+}
+
+class Person {
+	public void shoot() {
+		this.defend();
+	}
+	public void defend() {
+		System.out.println("1");
+	}
+}
+
+class Bitch extends Person{
+	public Bitch() {};
+	public void defend() {
+		System.out.println("2");
+	}
+}

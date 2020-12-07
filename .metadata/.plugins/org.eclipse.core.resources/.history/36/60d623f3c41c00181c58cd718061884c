@@ -1,0 +1,13 @@
+package Exam1;
+
+public class Test4 {
+	public static void main(String[] args) {
+
+	}
+}
+
+class Jewlry {
+	public int getPrice() {return 50;}
+	public String getDescription() {return ", " + this.getPrice();}
+
+}

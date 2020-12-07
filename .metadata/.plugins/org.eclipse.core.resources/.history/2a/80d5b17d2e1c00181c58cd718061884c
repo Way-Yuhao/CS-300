@@ -1,0 +1,38 @@
+package Exam1;
+
+class Car {
+	final int year;
+	
+	public Car() {year = 10;}
+	
+	public void initiate() {
+		System.out.println("Wenggggg");
+	}
+	
+}
+
+class ElectricCar extends Car {
+	public ElectricCar() {}
+	
+	@Override
+	public void initiate() {
+		System.out.println("Wiiii");
+	}
+	
+	public void warn() {
+		System.out.println("Low battery");
+	}
+	
+	
+}
+
+
+public class Track{
+	public static void main(String[] args) {
+		Car e = new ElectricCar();
+		Car vw = new Car();
+		//e = vw;
+		vw = e;
+		System.out.println(vw instanceof Object);
+	}
+}

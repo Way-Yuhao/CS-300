@@ -1,0 +1,18 @@
+package Exam1;
+
+public class Playground {
+	public static void main(String[] args) {
+		Bitch bitch = new Bitch();
+		bitch.shoot();
+	}
+}
+
+interface Person {
+	public void shoot();
+	public void defend();
+}
+
+class Bitch {
+	public Bitch() {};
+	public void shoot() {System.out.println("bang!");}
+}

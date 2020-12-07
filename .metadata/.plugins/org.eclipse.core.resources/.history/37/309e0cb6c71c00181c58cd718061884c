@@ -1,0 +1,32 @@
+package Exam1;
+
+public class Playground {
+	public static void main(String[] args) {
+		Bitch bitch = new Bitch();
+		bitch.shoot();
+		
+	}
+}
+
+class Person {
+	String ID = "P";
+	public Person (int a) {
+		
+	}
+	public void shoot() {
+		this.defend();
+		System.out.println(this.ID);
+	}
+	public void defend() {
+		System.out.println("1");
+	}
+}
+
+class Bitch extends Person{
+	String ID = "B";
+	public Bitch() {};
+	@Override
+	public void defend() {
+		System.out.println("2");
+	}
+}

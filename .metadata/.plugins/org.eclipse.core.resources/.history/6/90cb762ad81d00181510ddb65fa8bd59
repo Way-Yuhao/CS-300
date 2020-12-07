@@ -1,0 +1,22 @@
+package Gene;
+
+public class Gene {
+	public static void main(String[] fuck) {
+		ECar tesla = new ECar();
+	}
+}
+
+
+interface Car<T> {
+	public void getType();
+}
+
+class ECar implements Car<ECar>(Ecar[] list)  {
+	public void getType() {}
+}
+
+class RCar implements Car  {
+	public void getType() {
+		
+	}
+}

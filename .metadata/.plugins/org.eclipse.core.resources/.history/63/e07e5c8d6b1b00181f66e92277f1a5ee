@@ -1,0 +1,12 @@
+package Exam1;
+
+public class test2 {
+	public static void main(String[] args) {
+		
+	}
+	
+	public void modi(String[] arr) {
+		return new String[] {"f"};
+		
+	}
+}

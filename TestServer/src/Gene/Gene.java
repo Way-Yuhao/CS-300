@@ -1,0 +1,29 @@
+package Gene;
+
+public class Gene {
+	public static void main(String[] fuck) {
+		//ECar tesla = new ECar();
+	}
+}
+
+
+interface Car<T> {
+	public void getType(T[] list);
+}
+
+/*
+class ECar extends Comparable<ECar> {
+	public void getType(ECar[] list) {}
+	public static <ECar extends Comparable<ECar>> 
+		ECar findEarliest(ECar[] objects) {
+		return null;
+	}
+	
+}
+*/
+
+class RCar implements Comparable  {
+	public int compareTo(Object o) {
+		return -1;
+	}
+}

@@ -1,0 +1,14 @@
+package Exam1;
+
+public class test2 {
+	public static void main(String[] args) {
+		String[] arr = {"aye", "bruh"};
+		modi(arr);
+	}
+	
+	public static void modi(String[] arr) {
+		arr = new String[] {"f"};
+		
+		
+	}
+}

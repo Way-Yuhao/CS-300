@@ -1,0 +1,31 @@
+package Exam1;
+
+public class Test4 {
+	public static void main(String[] args) {
+		Girl g = new Girl();
+		System.out.println(g.getDis());
+	}
+}
+
+class Human {
+	private String ID = "?";
+	public Human() {
+		System.out.println(this.getDis());
+	}
+	
+	public String getDis() {
+		return this.ID;
+	}
+	
+	public String getIndo() {
+		return ID;
+	}
+}
+
+class Girl extends Human{
+	String ID = "XY";
+	
+	public String getIndo() {
+		return ID;
+	}
+}

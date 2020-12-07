@@ -1,0 +1,18 @@
+package Exam1;
+
+public class Test4 {
+	public static void main(String[] args) {
+		Girl g = new Girl();
+	}
+}
+
+class Person {
+	private String ID = "?";
+	public Person() {
+		System.out.println(this.ID);
+	}
+}
+
+class Girl {
+	private String ID = "XY";
+}

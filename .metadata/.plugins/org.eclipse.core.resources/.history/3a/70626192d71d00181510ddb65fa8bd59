@@ -1,0 +1,18 @@
+package Gene;
+
+public class Gene {
+	public static void main(String[] fuck) {
+		Object tesla = new ECar();
+	}
+}
+
+
+interface Car<T> {
+	public void getType();
+}
+
+class ECar implements Car  {
+	public void getType() {
+		
+	}
+}

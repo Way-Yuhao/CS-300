@@ -1,0 +1,12 @@
+package Exam1;
+import java.util.Arrays;
+public class test2 {
+	public static void main(String[] args) {
+		String[] a = new String[] {"1", "2"};
+		String[] b = a;
+		b[0] = "x";
+		System.out.println(a[0]);
+	}
+	
+	
+}

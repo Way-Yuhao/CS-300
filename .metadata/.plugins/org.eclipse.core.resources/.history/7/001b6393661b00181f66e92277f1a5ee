@@ -1,0 +1,14 @@
+package Exam1;
+
+public class test1 {
+	public static void main(String[] args) {
+		String [] str1 = {"1", "2", "3"};
+		String[][] str = new String [][] {
+				{a, "1", a},
+				};
+		a = "b";
+		System.out.println(str[0]); //"a"
+		System.out.println(a);    //"b"
+		
+	}
+}

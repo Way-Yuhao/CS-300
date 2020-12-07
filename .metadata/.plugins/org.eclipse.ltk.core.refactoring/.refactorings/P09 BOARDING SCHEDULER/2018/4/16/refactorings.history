@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;list&apos; in &apos;BoardingScheduler&apos; to &apos;boardingHeap&apos;&#x0A;- Original project: &apos;P09 BOARDING SCHEDULER&apos;&#x0A;- Original element: &apos;BoardingScheduler.list&apos;&#x0A;- Renamed element: &apos;BoardingScheduler.boardingHeap&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;list&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{BoardingScheduler.java[BoardingScheduler^list" name="boardingHeap" references="true" setter="false" stamp="1524019820830" textual="false" version="1.0"/>
+</session>

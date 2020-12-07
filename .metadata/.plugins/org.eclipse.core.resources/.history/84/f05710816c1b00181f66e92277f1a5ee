@@ -1,0 +1,11 @@
+package Exam1;
+
+public class test2 {
+	public static void main(String[] args) {
+		Integer a = 1;
+		Integer b = 1;
+		System.out.println(a == b);
+	}
+	
+	
+}

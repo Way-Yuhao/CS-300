@@ -1,0 +1,9 @@
+package Exam1;
+
+public class Test4 {
+	public static void main(String[] args) {
+		Girl g = new Girl();
+		System.out.println(g.getDis());
+	}
+}
+

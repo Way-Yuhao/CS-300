@@ -1,0 +1,10 @@
+package Exam1;
+
+public class test1 {
+	public static void main(String[] args) {
+		String a = "a";
+		String b = a;
+		b = "b";
+		System.out.println(a);
+	}
+}

@@ -1,0 +1,10 @@
+package Gene;
+
+public class Gene {
+
+}
+
+
+interface Car<T> {
+	
+}

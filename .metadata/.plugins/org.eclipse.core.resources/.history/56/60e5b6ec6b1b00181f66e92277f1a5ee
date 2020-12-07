@@ -1,0 +1,15 @@
+package Exam1;
+
+public class test2 {
+	public static void main(String[] args) {
+		String[] arr = {"aye", "bruh"};
+		arr = modi(arr);
+		System.out.println(arr[0]);
+	}
+	
+	public static String[] modi(String[] arr) {
+		arr = new String[] {"f"};
+		return arr;
+		
+	}
+}

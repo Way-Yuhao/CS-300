@@ -1,0 +1,14 @@
+package Gene;
+
+public class Gene {
+
+}
+
+
+interface Car<T> {
+	public void getType();
+}
+
+class ECar implements Car<ECar> {
+	public void getType();
+}

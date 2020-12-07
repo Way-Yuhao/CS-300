@@ -1,0 +1,32 @@
+package Exam1;
+
+interface Car {
+	public void initiate();
+}
+
+class ElectricCar implements Car {
+	public ElectricCar() {}
+	
+	public void initiate() {
+		System.out.println("Wiiii");
+	}
+	
+	public void warn() {
+		System.out.println("Low battery");
+	}
+	
+	
+}
+
+
+public class Track{
+	public static void main(String[] args) {
+		//Car e = new ElectricCar();
+		//Car vw = new Car();
+		//e = vw;
+		//vw.initiate();
+		
+		Car e = new ElectricCar();
+		e.
+	}
+}
